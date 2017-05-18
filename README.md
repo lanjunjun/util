@@ -10,4 +10,5 @@ show create table 表名;
 查询多长时间会放到慢查询语句
 show VARIABLES like 'slow_query_log';
 show VARIABLES like 'long_query_time';
-
+查询慢查询语句所在的位置
+show VARIABLES like 'slow_query_log_file';
